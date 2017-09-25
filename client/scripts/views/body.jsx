@@ -49,7 +49,7 @@ var Question = createReactClass({
 
             &lt;question&gt;<br/>
                 &lt;parent&gt;問診&lt;/parent&gt;<br/>
-                &lt;hq&gt;どのくらい食べたいですか&lt;/hq&gt;<br/>
+                &lt;hq&gt;どのくらい食事に取り入れたい、あるいは食べたいと思いますか&lt;/hq&gt;<br/>
                 &lt;image&gt;{this.props.fname}&lt;/image&gt;<br/>
                 &lt;food&gt;{this.props.dname}&lt;/food&gt;<br/>
                 &lt;type&gt;seek&lt;/type&gt;<br/>
@@ -97,7 +97,7 @@ var XMLdata = createReactClass({
                     &lt;hq&gt;どのくらい満腹ですか&lt;/hq&gt;<br/>
                     &lt;type&gt;seek&lt;/type&gt;<br/>
                     &lt;order&gt;1&lt;/order&gt;<br/>
-                    &lt;desc&gt;0: 全くない\n100: とてもある&lt;/desc&gt;<br/>
+                    &lt;desc&gt;0: 全く満腹でない\n100: とても満腹である&lt;/desc&gt;<br/>
                     &lt;min&gt;0&lt;/min&gt;<br/>
                     &lt;max&gt;100&lt;/max&gt;<br/>
                     &lt;items&gt;&lt;/items&gt;<br/>
@@ -107,7 +107,7 @@ var XMLdata = createReactClass({
                     &lt;hq&gt;どのくらい空腹ですか&lt;/hq&gt;<br/>
                     &lt;type&gt;seek&lt;/type&gt;<br/>
                     &lt;order&gt;2&lt;/order&gt;<br/>
-                    &lt;desc&gt;0: 全くない\n100: とてもある&lt;/desc&gt;<br/>
+                    &lt;desc&gt;0: 全く空腹でない\n100: とても空腹である&lt;/desc&gt;<br/>
                     &lt;min&gt;0&lt;/min&gt;<br/>
                     &lt;max&gt;100&lt;/max&gt;<br/>
                     &lt;items&gt;&lt;/items&gt;<br/>
@@ -117,7 +117,7 @@ var XMLdata = createReactClass({
                     &lt;hq&gt;どのくらい活力に満ちていますか&lt;/hq&gt;<br/>
                     &lt;type&gt;seek&lt;/type&gt;<br/>
                     &lt;order&gt;3&lt;/order&gt;<br/>
-                    &lt;desc&gt;0: 全くない\n100: とてもある&lt;/desc&gt;<br/>
+                    &lt;desc&gt;0: 全く満ちていない\n100: とても満ちている&lt;/desc&gt;<br/>
                     &lt;min&gt;0&lt;/min&gt;<br/>
                     &lt;max&gt;100&lt;/max&gt;<br/>
                     &lt;items&gt;&lt;/items&gt;<br/>
@@ -127,7 +127,7 @@ var XMLdata = createReactClass({
                     &lt;hq&gt;どのくらい疲れていますか&lt;/hq&gt;<br/>
                     &lt;type&gt;seek&lt;/type&gt;<br/>
                     &lt;order&gt;4&lt;/order&gt;<br/>
-                    &lt;desc&gt;0: 全くない\n100: とてもある&lt;/desc&gt;<br/>
+                    &lt;desc&gt;0: 全く疲れていない\n100: とても疲れている&lt;/desc&gt;<br/>
                     &lt;min&gt;0&lt;/min&gt;<br/>
                     &lt;max&gt;100&lt;/max&gt;<br/>
                     &lt;items&gt;&lt;/items&gt;<br/>
@@ -137,7 +137,7 @@ var XMLdata = createReactClass({
                     &lt;hq&gt;どのくらい眠いですか&lt;/hq&gt;<br/>
                     &lt;type&gt;seek&lt;/type&gt;<br/>
                     &lt;order&gt;5&lt;/order&gt;<br/>
-                    &lt;desc&gt;0: 全くない\n100: とてもある&lt;/desc&gt;<br/>
+                    &lt;desc&gt;0: 全く眠くない\n100: とても眠い&lt;/desc&gt;<br/>
                     &lt;min&gt;0&lt;/min&gt;<br/>
                     &lt;max&gt;100&lt;/max&gt;<br/>
                     &lt;items&gt;&lt;/items&gt;<br/>
