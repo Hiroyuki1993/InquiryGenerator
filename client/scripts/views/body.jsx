@@ -49,7 +49,7 @@ var Question = createReactClass({
 
             &lt;question&gt;<br/>
                 &lt;parent&gt;問診&lt;/parent&gt;<br/>
-                &lt;hq&gt;どのくらい食事に取り入れたい、あるいは食べたいと思いますか&lt;/hq&gt;<br/>
+                &lt;hq&gt;どのくらい食事に取り入れたい、\nあるいは食べたいと思いますか&lt;/hq&gt;<br/>
                 &lt;image&gt;{this.props.fname}&lt;/image&gt;<br/>
                 &lt;food&gt;{this.props.dname}&lt;/food&gt;<br/>
                 &lt;type&gt;seek&lt;/type&gt;<br/>
