@@ -16,7 +16,6 @@ var Header = createReactClass({
                 問診ファイル（inquiry.xml）に以下のコードをコピー＆ペーストしてください<br/>
                 貼り付けの際はwindows付属のメモ帳ではなく、サクラエディタなど文字コードをUTF-8形式で保存できるエディタを使用して下さい（androidの仕様のため）<br/>
                 ファイル名の修正などはペースト先のエディタでできます<br/>
-                指定するファイル名は<a href="https://drive.google.com/open?id=0B_nK8gCpGV7ELXNFRDBsZEdFZTA">こちら</a>の名前にしたがってください
                 </Panel>
             </div>
         );
